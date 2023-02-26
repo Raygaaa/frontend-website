@@ -1,68 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Website Utama Kerja Sama Bandung" />
+    <meta
+      name="keywords"
+      content="kota bandung, kerjasama, kerja sama kota bandung, kerjasama kota, kota bandung kerjasama"
+    />
+    <meta name="author" content="elemis" />
+    <title>Bagian Kerja Sama Kota Bandung</title>
+    <link rel="shortcut icon" href="./assets/img/favicon-kerjasama.png" />
+    <link rel="stylesheet" href="./assets/css/plugins.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/colors/sky.css" />
+    <link
+      rel="preload"
+      href="./assets/css/fonts/urbanist.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+  </head>
 
-@include('layout.head')
-
-<body>
-  @include('layout.heder')
-  <!--/.row -->
-  </li>
-  <!--/.mega-menu-content-->
-  </ul>
-  <!--/.dropdown-menu -->
-  </li>
-  </ul>
-  <!-- /.navbar-nav -->
-  <div class="offcanvas-footer d-lg-none">
-    <div>
-      <a href="mailto:first.last@email.com" class="link-inverse">Bagiankerjasamakotabandung@email.com</a>
-      <br /> 00 (123) 456 78 90 <br />
-      <nav class="nav social social-white mt-4">
-        <a href="#"><i class="uil uil-twitter"></i></a>
-        <a href="#"><i class="uil uil-facebook-f"></i></a>
-        <a href="#"><i class="uil uil-dribbble"></i></a>
-        <a href="#"><i class="uil uil-instagram"></i></a>
-        <a href="#"><i class="uil uil-youtube"></i></a>
-      </nav>
-      <!-- /.social -->
-    </div>
-  </div>
-  <!-- /.offcanvas-footer -->
-  </div>
-  <!-- /.offcanvas-body -->
-  </div>
-  <!-- /.navbar-collapse -->
-  <!-- <div class="navbar-other w-100 d-flex ms-auto">
-            <ul class="navbar-nav flex-row align-items-center ms-auto">
-              <li class="nav-item dropdown language-select text-uppercase">
-                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">En</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="#">En</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#">De</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#">Es</a></li>
+  <body>
+    <div class="content-wrapper">
+      <header class="wrapper bg-light">
+        <nav class="navbar navbar-expand-lg classic transparent navbar-light">
+          <div class="container flex-lg-row flex-nowrap align-items-center">
+            <div class="navbar-brand w-100">
+              <a href="./demo21.html">
+                <img
+                  src="./assets/img/logo-kerjasama.png"
+                  style="height: 45px"
+                  srcset="./assets/img/logo-kerjasama.png 2x"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
+            >
+              <div class="offcanvas-header d-lg-none">
+                <h3 class="text-white fs-30 mb-0">
+                  Bagian Kerja Sama Kota Bandung
+                </h3>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                <ul class="navbar-nav">
+                  <!-- Navbar Profil -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      >Profil</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a class="dropdown-item" href="latarbelakang.html"
+                          >Latar Belakang</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item" href="dasar-hukum.html"
+                          >Dasar Hukum</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item" href="layanan.html"
+                          >Layanan Kami</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item" href="personil.html"
+                          >Personil</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item" href="pk.html"
+                          >Perjanjian Kerja</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item" href="ik.html"
+                          >Indikator Kinerja</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item" href="kontak.html"
+                          >Kontak Kami</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <!-- Kerja sama -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      >Kerja Sama Daerah</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li class="dropdown dropdown-submenu dropend">
+                        <a
+                          class="dropdown-item dropdown-toggle"
+                          href="#"
+                          data-bs-toggle="dropdown"
+                          >Dalam Negeri</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a class="dropdown-item" href="ksdd.html"
+                              >Kerjasama Daerah dengan Daerah Lain (KSDD)</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="dropdown-item" href="ksdpk.html"
+                              >Kerjasama Daerah dengan Pihak Ketiga (KSDPK)</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="dropdown-item" href="sinergitas.html"
+                              >Sinergitas</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown dropdown-submenu dropend">
+                        <a
+                          class="dropdown-item dropdown-toggle"
+                          href="#"
+                          data-bs-toggle="dropdown"
+                          >Luar Negeri</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a class="dropdown-item" href="ksdpl.html"
+                              >Kerjasama Daerah dengan Pemerintah Daerah di Luar
+                              Negeri (KSDPL)</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="dropdown-item" href="ksdll.html"
+                              >Kerjasama Daerah dengan Lembaga di Luar Negeri
+                              (KSDLL)</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item" href="pengajuan.html"
+                          >Formulir Pengajuan Kerja Sama</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <!-- monev -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      >Monitoring & Evaluasi</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li class="dropdown dropdown-submenu dropend">
+                        <a
+                          class="dropdown-item dropdown-toggle"
+                          href="#"
+                          data-bs-toggle="dropdown"
+                          >Evaluasi Kerjasama</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a class="dropdown-item" href="rekapitulasi.html"
+                              >Rekapitulasi</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="dropdown-item" href="ig.html"
+                              >Informasi Grafis</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown dropdown-submenu dropend">
+                        <a
+                          class="dropdown-item dropdown-toggle"
+                          href="#"
+                          data-bs-toggle="dropdown"
+                          >Layanan Publik</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a class="dropdown-item" href="layananpublik.html"
+                              >Fasilitasi Naskah Kerjasama
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <!-- Navbar berita -->
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="berita.html">Berita</a>
+                    </li>
+                  </ul>
+                  <!-- navbar tkksd -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      >TKKSD</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a class="dropdown-item" href="tkksd.html"
+                          >TKKSD</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item" href="tkksd-award.html"
+                          >TKKSD Award</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item" href="kaleidoskop.html"
+                          >Kaledoiskop</a
+                        >
+                      </li> 
+                    </ul>
+                  </li>
+                  <!-- Kontak -->
+                  <!-- form -->
+                  <!-- <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link" href="#">Form Pengajuan</a></li>
+                </ul> -->
                 </ul>
-              </li> -->
-  <!-- <li class="nav-item d-none d-md-block">
-                <a href="./contact.html" class="btn btn-sm btn-primary rounded-pill">Contact</a>
+                <!-- /.navbar-nav -->
+                <div class="offcanvas-footer d-lg-none">
+                  <div>
+                    <a href="mailto:first.last@email.com" class="link-inverse"
+                      >info@email.com</a
+                    >
+                    <br />
+                    00 (123) 456 78 90 <br />
+                    <nav class="nav social social-white mt-4">
+                      <a href="#"><i class="uil uil-twitter"></i></a>
+                      <a href="#"><i class="uil uil-facebook-f"></i></a>
+                      <a href="#"><i class="uil uil-dribbble"></i></a>
+                      <a href="#"><i class="uil uil-instagram"></i></a>
+                      <a href="#"><i class="uil uil-youtube"></i></a>
+                    </nav>
+                  </div>
+                </div>
+                <!-- /.offcanvas-footer -->
+              </div>
+              <!-- /.offcanvas-body -->
+            </div>
+            <!-- navbar form pengajuan -->
+            <!-- <div class="navbar-other ms-lg-4">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item d-none d-md-block">
+                <a href="./contact.html" class="btn btn-sm btn-primary rounded-pill">Form Pengajuan</a>
               </li>
               <li class="nav-item d-lg-none">
                 <button class="hamburger offcanvas-nav-btn"><span></span></button>
-              </li> -->
-  </ul>
-  <!-- /.navbar-nav -->
-  </div>
-  <!-- /.navbar-other -->
-  </div>
-  <!-- /.container -->
-  </nav> -->
-  <!-- /.navbar -->
-  </header>
+              </li>
+            </ul>
+          </div> -->
+            <!-- /.navbar-other -->
+          </div>
+          <!-- /.container -->
+        </nav>
+        <!-- /.navbar -->
+      </header>
   <!-- /header -->
   <section class="wrapper bg-soft-primary">
     <div class="container pt-10 pb-12 pt-md-14 pb-md-16 text-center">
       <div class="row">
         <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto">
-          <h1 class="display-1 mb-3">Latar Belakang</h1>
+          <h1 class="display-1 mb-3">Dasar Hukum</h1>
           <nav class="d-inline-block" aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item active" aria-current="page">Sejarah Bagian Kerja Sama Kota Bandung dan Dasar
@@ -82,73 +309,22 @@
     <div class="row gx-0">
       <div class="tab-content mt-0 mt-md-5">
         <div class="tab-pane fade show active" id="tab1-1">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna
-            aliqua. Mi eget mauris pharetra et. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Ligula
-            ullamcorper
-            malesuada proin libero nunc consequat interdum varius. Nulla malesuada pellentesque elit eget gravida cum
-            sociis
-            natoque. Suscipit tellus mauris a diam maecenas. Imperdiet massa tincidunt nunc pulvinar. Egestas quis ipsum
-            suspendisse
-            ultrices. Eget est lorem ipsum dolor. Eget nullam non nisi est sit amet facilisis magna etiam. Posuere
-            sollicitudin
-            aliquam ultrices sagittis orci a scelerisque. Tempor commodo ullamcorper a lacus vestibulum sed. Faucibus
-            ornare
-            suspendisse sed nisi lacus sed. Lorem sed risus ultricies tristique nulla aliquet enim. Leo duis ut diam
-            quam nulla
-            porttitor massa. Ornare massa eget egestas purus viverra accumsan in.</p>
-          <p>Vel risus commodo viverra maecenas accumsan lacus vel facilisis. Nibh praesent tristique magna sit amet
-            purus gravida
-            quis. Senectus et netus et malesuada fames. In aliquam sem fringilla ut morbi tincidunt. Blandit libero
-            volutpat sed
-            cras ornare arcu dui vivamus arcu. Rhoncus urna neque viverra justo. Eget arcu dictum varius duis at
-            consectetur lorem
-            donec massa. Dictum varius duis at consectetur lorem donec massa sapien faucibus. Viverra adipiscing at in
-            tellus
-            integer. Euismod nisi porta lorem mollis aliquam ut.</p>
-          <p>Pharetra convallis posuere morbi leo urna molestie at elementum. Facilisi etiam dignissim diam quis enim.
-            Imperdiet sed
-            euismod nisi porta lorem. Purus in mollis nunc sed id semper risus in hendrerit. In ornare quam viverra orci
-            sagittis eu
-            volutpat. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Dignissim diam quis enim
-            lobortis
-            scelerisque fermentum. Morbi tempus iaculis urna id volutpat lacus laoreet. Venenatis tellus in metus
-            vulputate.
-            Bibendum est ultricies integer quis auctor elit. Ut aliquam purus sit amet luctus venenatis. Augue interdum
-            velit
-            euismod in pellentesque massa. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Turpis
-            massa sed
-            elementum tempus egestas sed. Massa tincidunt dui ut ornare. Aliquet nec ullamcorper sit amet. Fringilla ut
-            morbi
-            tincidunt augue interdum velit euismod. Id ornare arcu odio ut sem nulla pharetra diam sit. Amet est
-            placerat in egestas
-            erat imperdiet sed. Vitae justo eget magna fermentum iaculis eu non.</p>
-          <p>Felis bibendum ut tristique et egestas quis ipsum. Habitasse platea dictumst quisque sagittis purus sit
-            amet volutpat
-            consequat. Viverra nibh cras pulvinar mattis. Cursus sit amet dictum sit amet justo. Scelerisque varius
-            morbi enim nunc
-            faucibus a pellentesque sit amet. Aliquam nulla facilisi cras fermentum. Imperdiet nulla malesuada
-            pellentesque elit
-            eget gravida. Nullam vehicula ipsum a arcu cursus. Amet purus gravida quis blandit turpis cursus in hac.
-            Volutpat
-            commodo sed egestas egestas. Euismod quis viverra nibh cras pulvinar mattis nunc. Nulla facilisi nullam
-            vehicula ipsum a
-            arcu. Ut eu sem integer vitae justo eget. Diam maecenas sed enim ut sem viverra aliquet eget sit.</p>
-          <p>Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Praesent semper feugiat
-            nibh sed pulvinar proin gravida hendrerit lectus. Pellentesque massa placerat duis ultricies lacus. Sapien
-            et ligula ullamcorper malesuada proin libero nunc consequat interdum. Ipsum dolor sit amet consectetur
-            adipiscing. At consectetur lorem donec massa. Sed faucibus turpis in eu mi bibendum neque. Nunc vel risus
-            commodo viverra. Neque convallis a cras semper auctor neque. Sed risus ultricies tristique nulla aliquet
-            enim. Augue neque gravida in fermentum et sollicitudin ac orci. Tempus iaculis urna id volutpat lacus
-            laoreet.</p>
-          <p>Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam. Suspendisse faucibus interdum
-            posuere lorem ipsum dolor sit. Imperdiet dui accumsan sit amet. Magna sit amet purus gravida. Faucibus nisl
-            tincidunt eget nullam. Sollicitudin nibh sit amet commodo nulla. Leo vel orci porta non pulvinar neque.
-            Convallis aenean et tortor at risus viverra adipiscing at. Amet venenatis urna cursus eget nunc. Tincidunt
-            tortor aliquam nulla facilisi cras fermentum. Nibh praesent tristique magna sit amet purus. Habitasse platea
-            dictumst quisque sagittis purus sit amet. Nisi lacus sed viverra tellus in hac. Et netus et malesuada fames
-            ac turpis. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+          <p>Dasar hukum pelaksanaan Kerja Sama Daerah :
 
+           <p>1. Undang-Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 9 Tahun 2015 tentang Perubahan Kedua atas Undang-Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah;</p>
+          <p>2. Peraturan Pemerintah Republik Indonesia Nomor 28 Tahun 2018 tentang Kerja Sama Daerah;</p>
+          <p>3. Peraturan Menteri Luar Negeri Nomor 09/A/KP/XII/2006/01 tentang Panduan Umum Tata Cara Hubungan dan Kerja sama Luar Negeri oleh Pemerintah Daerah;</p>
+          <p>4. Peraturan Menteri Dalam Negeri Nomor 3 Tahun 2008 tentang Pedoman Pelaksanaan Kerja sama Pemerintah Daerah dengan Pihak Luar Negeri;</p>
+          <p>5. Peraturan Menteri Dalam Negeri Nomor 22 Tahun 2009 tentang Petunjuk Teknis Tata Cara Kerja Sama Daerah;</p>
+          <p>6. Peraturan Menteri Dalam Negeri Nomor 23 Tahun 2009 tentang Tata Cara Pembinaan dan Pengawasan Kerja Sama Antar Daerah;</p>
+          <p>7. Peraturan Menteri Dalam Negeri Nomor 74 Tahun 2012 tentang Pedoman Pelaksanaan Kerja sama Pemerintah Daerah dengan Badan Swasta Asing;</p>
+          <p>8. Peraturan Menteri Dalam Negeri Nomor 22 Tahun 2020 tentang Tata Cara Kerja Sama Daerah dengan Daerah Lain dan Kerja Sama Daerah dengan Pihak Ketiga;</p>
+          <p>9. Peraturan Menteri Dalam Negeri Nomor 25 Tahun 2020 tentang Tata Cara Kerja Sama Daerah dengan Pemerintah Daerah di Luar Negeri dan Kerja Sama Daerah dengan Lembaga di Luar Negeri;</p>
+          <p>10. Peraturan Gubernur Jawa Barat Nomor 106 Tahun 2016 tentang Pedoman Koordinasi Kerja Sama Dalam Negeri;</p>
+          <p>11. Peraturan Daerah Kota Bandung Nomor 04 Tahun 2013 tentang Perubahan Kedua Atas Peraturan Daerah Kota Bandung Nomor 12 Tahun 2007 Tentang Pembentukan Dan Susunan Organisasi Lembaga Teknis Daerah</p>
+          <p>12. Peraturan Daerah Kota Bandung Nomor 10 Tahun 2017 tentang Penyelenggaraan Kerja Sama Daerah;</p>
+          <p>13. Keputusan Wali Kota Bandung Nomor: 119/Kep.575-KS/2018 tentang Tim Koordinasi Kerja Sama Daerah Kota Bandung</p>
+          </p>
         </div>
         <!--/.tab-pane -->
         <div class="tab-pane fade" id="tab1-2">
@@ -191,8 +367,70 @@
   <!-- /.container -->
   </div>
   <!-- /.content-wrapper -->
-  @include('layout.footer')
-  @include('layout.wrapper')
+  <footer class="bg-navy text-inverse">
+    <div class="container pt-12 pt-lg-6 pb-13 pb-md-15">
+      
+      <!--/div -->
+      <hr class="mt-11 mb-12" />
+      <div class="row gy-6 gy-lg-0">
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <img class="mb-4" src="./assets/img/logo-kerjasama.png" style="height: 45px;" />
+            <p class="mb-4">Bagian Kerja Sama Kota Bandung <br class="d-none d-lg-block" /></p>
+            <nav class="nav social social-white">
+              <a href="#"><i class="uil uil-twitter"></i></a>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="#"><i class="uil uil-dribbble"></i></a>
+              <a href="#"><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-youtube"></i></a>
+            </nav>
+            <!-- /.social -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <!-- Tentang -->
+        <div class="col-md-12 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Tentang Kami</h4>
+            <p class="mb-5">Melayani Fasilitasi Kerja Sama di Kota Bandung</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Alamat Kantor</h4>
+            <address class="pe-xl-15 pe-xxl-17">Jl. Aceh No.51, Babakan Ciamis, Kec. Sumur Bandung, Kota Bandung
+            </address>
+            <a href="mailto:#">bagiankerjasama@bandung.go.id</a><br /> (022) 4204358
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Website Terkait</h4>
+            <ul class="list-unstyled  mb-0">
+              <li><a href="#">Pemerintah Daerah Kota Bandung</a></li>
+              <li><a href="#">Pemerintah Daerah Provinsi Jawa Barat</a></li>
+              <li><a href="#">Kementrian Dalam Negeri</a></li>
+              <li><a href="#">Kementrian Luar Negeri</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/theme.js"></script>
 </body>
 
 </html>
