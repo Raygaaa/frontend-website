@@ -92,17 +92,17 @@
                       >
                       <ul class="dropdown-menu">
                         <li class="nav-item">
-                          <a class="dropdown-item" href="./KSDD.html"
+                          <a class="dropdown-item" href="{{ route('ksdd') }}"
                             >Kerjasama Daerah dengan Daerah Lain (KSDD)</a
                           >
                         </li>
                         <li class="nav-item">
-                          <a class="dropdown-item" href="./blog-post.html"
+                          <a class="dropdown-item" href="{{ route('ksdpk') }}"
                             >Kerjasama Daerah dengan Pihak Ketiga (KSDPK)</a
                           >
                         </li>
                         <li class="nav-item">
-                          <a class="dropdown-item" href="./blog-post2.html"
+                          <a class="dropdown-item" href="{{ route('sinergitas') }}"
                             >Sinergitas</a
                           >
                         </li>
@@ -117,13 +117,13 @@
                       >
                       <ul class="dropdown-menu">
                         <li class="nav-item">
-                          <a class="dropdown-item" href="./blog-post.html"
+                          <a class="dropdown-item" href="{{ route('ksdpl') }}"
                             >Kerjasama Daerah dengan Pemerintah Daerah di Luar
                             Negeri (KSDPL)</a
                           >
                         </li>
                         <li class="nav-item">
-                          <a class="dropdown-item" href="./blog-post.html"
+                          <a class="dropdown-item" href="{{ route('ksdll') }}"
                             >Kerjasama Daerah dengan Lembaga di Luar Negeri
                             (KSDLL)</a
                           >
@@ -131,7 +131,7 @@
                       </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="dropdown-item" href="#"
+                      <a class="dropdown-item" href="{{ route('pengajuan') }}"
                         >Formulir Pengajuan Kerja Sama</a
                       >
                     </li>
@@ -155,7 +155,7 @@
                       >
                       <ul class="dropdown-menu">
                         <li class="nav-item">
-                          <a class="dropdown-item" href="rekapitulasi.html"
+                          <a class="dropdown-item" href="{{ route('rekapitulasi') }}"
                             >Rekapitulasi</a
                           >
                         </li>
@@ -165,11 +165,6 @@
                           >
                         </li>
                       </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./pricing.html"
-                        >Transparansi Anggaran</a
-                      >
                     </li>
                     <li class="dropdown dropdown-submenu dropend">
                       <a

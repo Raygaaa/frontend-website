@@ -28,5 +28,10 @@ Route::get('/ik', [ProfileController::class, 'showIk'])->name('ik');
 Route::get('/kontak', [ProfileController::class, 'showKontak'])->name('kontak');
 Route::get('/ksdd', [MonevController::class, 'showKsdd'])->name('ksdd');
 Route::get('/ksdpk', [MonevController::class, 'showKsdpk'])->name('ksdpk');
+Route::get('/sinergitas', [MonevController::class, 'showSinergitas'])->name('sinergitas');
+Route::get('/ksdpl', [MonevController::class, 'showKsdpl'])->name('ksdpl');
+Route::get('/ksdll', [MonevController::class, 'showKsdll'])->name('ksdll');
+Route::get('/pengajuan', [MonevController::class, 'showPengajuan'])->name('pengajuan');
+Route::get('/rekapitulasi', [MonitoringController::class, 'showRekapitulasi'])->name('rekapitulasi');
 Route::get('/welcome', [HomeController::class, 'showHome'])->name('welcome');
 
