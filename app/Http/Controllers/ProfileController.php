@@ -59,4 +59,12 @@ class ProfileController extends Controller
     {
         return view('monev.pengajuan');
     }
+    public function showRekapitulasi()
+    {
+        return view('monitoring.rekapitulasi');
+    }
+    public function showLayananpublik()
+    {
+        return view('monitoring.layananpublik');
+    }
 }
