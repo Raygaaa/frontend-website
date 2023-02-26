@@ -193,17 +193,17 @@
                 <!-- navbar tkksd -->
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a class="dropdown-item" href="tkksd.html"
+                    <a class="dropdown-item" href="{{ route('tkksd') }}"
                       >TKKSD</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="dropdown-item" href="tkksd-award.html"
+                    <a class="dropdown-item" href="{{ route('tkksd-award') }}"
                       >TKKSD Award</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="dropdown-item" href="kaleidoskop.html"
+                    <a class="dropdown-item" href="{{ route('kaledoiskop') }}"
                       >Kaledoiskop</a
                     >
                   </li> 
