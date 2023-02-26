@@ -33,6 +33,9 @@ Route::get('/ksdpl', [MonevController::class, 'showKsdpl'])->name('ksdpl');
 Route::get('/ksdll', [MonevController::class, 'showKsdll'])->name('ksdll');
 Route::get('/pengajuan', [MonevController::class, 'showPengajuan'])->name('pengajuan');
 Route::get('/rekapitulasi', [MonitoringController::class, 'showRekapitulasi'])->name('rekapitulasi');
-Route::get('/layananpublik', [MonitoringController::class, 'showLayananpublik'])->name('layananpublik');
+Route::get('/tkksd', [TkksdController::class, 'showTkksd'])->name('tkksd');
+Route::get('/tkksd-award', [TkksdController::class, 'showTkksd-award'])->name('tkksd-award');
+Route::get('/kaledoiskop', [TkksdController::class, 'showKaledoiskop'])->name('kaledoiskop');
+Route::get('/layananpublik', [HomeController::class, 'showLayananpublik'])->name('layananpublik');
 Route::get('/welcome', [HomeController::class, 'showHome'])->name('welcome');
 

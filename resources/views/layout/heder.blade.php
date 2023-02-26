@@ -175,7 +175,7 @@
                       >
                       <ul class="dropdown-menu">
                         <li class="nav-item">
-                          <a class="dropdown-item" href="layananpublik.html"
+                          <a class="dropdown-item" href="{{ route('layananpublik') }}"
                             >Fasilitasi Naskah Kerjasama
                           </a>
                         </li>
@@ -186,21 +186,30 @@
                 <!-- Navbar berita -->
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="blog-post2.html">Berita</a>
+                    <a class="nav-link" href="{{ route('berita') }}"
+                    >Berita</a>
                   </li>
                 </ul>
                 <!-- navbar tkksd -->
-                <ul class="navbar-nav">
+                <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">TKKSD</a>
+                    <a class="dropdown-item" href="tkksd.html"
+                      >TKKSD</a
+                    >
                   </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="tkksd-award.html"
+                      >TKKSD Award</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="kaleidoskop.html"
+                      >Kaledoiskop</a
+                    >
+                  </li> 
                 </ul>
                 <!-- Kontak -->
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
-                  </li>
-                </ul>
+                
                 <!-- form -->
                 <!-- <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#">Form Pengajuan</a></li>
