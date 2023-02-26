@@ -35,4 +35,12 @@ class ProfileController extends Controller
     {
         return view('profile.kontak');
     }
+    public function showKsdd()
+    {
+        return view('monev.ksdd');
+    }
+    public function showKsdpk()
+    {
+        return view('monev.ksdpk');
+    }
 }

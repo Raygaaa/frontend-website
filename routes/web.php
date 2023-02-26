@@ -26,5 +26,7 @@ Route::get('/layanan', [ProfileController::class, 'showLayanan'])->name('layanan
 Route::get('/pk', [ProfileController::class, 'showPk'])->name('pk');
 Route::get('/ik', [ProfileController::class, 'showIk'])->name('ik');
 Route::get('/kontak', [ProfileController::class, 'showKontak'])->name('kontak');
+Route::get('/ksdd', [MonevController::class, 'showKsdd'])->name('ksdd');
+Route::get('/ksdpk', [MonevController::class, 'showKsdpk'])->name('ksdpk');
 Route::get('/welcome', [HomeController::class, 'showHome'])->name('welcome');
 
