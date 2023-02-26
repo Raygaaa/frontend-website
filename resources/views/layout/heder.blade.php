@@ -38,7 +38,7 @@
                   >
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a class="dropdown-item" href="{{ route('latar-belakang') }}"
+                      <a class="dropdown-item" href="{{ route('latarbelakang') }}"
                         >Latar Belakang</a
                       >
                     </li>
@@ -48,23 +48,28 @@
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="dropdown-item" href="layanan.html"
+                      <a class="dropdown-item" href="{{ route('layanan') }}"
                         >Layanan Kami</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="dropdown-item" href="personil.html"
+                      <a class="dropdown-item" href="{{ route('personil') }}"
                         >Personil</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="dropdown-item" href="pk.html"
+                      <a class="dropdown-item" href="{{ route('pk') }}"
                         >Perjanjian Kerja</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="dropdown-item" href="ik.html"
+                      <a class="dropdown-item" href="{{ route('ik') }}"
                         >Indikator Kinerja</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="{{ route('kontak') }}"
+                        >Kontak Kami</a
                       >
                     </li>
                   </ul>

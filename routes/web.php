@@ -19,7 +19,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/latar-belakang', [ProfileController::class, 'showLatarBelakang'])->name('latar-belakang');
+Route::get('/latar-belakang', [ProfileController::class, 'showLatarBelakang'])->name('latarbelakang');
 Route::get('/dasar-hukum', [ProfileController::class, 'showDasarHukum'])->name('dasar-hukum');
+Route::get('/personil', [ProfileController::class, 'showPersonil'])->name('personil');
+Route::get('/layanan', [ProfileController::class, 'showLayanan'])->name('layanan');
+Route::get('/pk', [ProfileController::class, 'showPk'])->name('pk');
+Route::get('/ik', [ProfileController::class, 'showIk'])->name('ik');
+Route::get('/kontak', [ProfileController::class, 'showKontak'])->name('kontak');
 Route::get('/welcome', [HomeController::class, 'showHome'])->name('welcome');
 

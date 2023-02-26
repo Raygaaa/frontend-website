@@ -2,61 +2,8 @@
 <html lang="en">
 @include('layout.head')
 
-<body>
-@include('layout.heder')
-  <!--/.row -->
-  </li>
-  <!--/.mega-menu-content-->
-  </ul>
-  <!--/.dropdown-menu -->
-  </li>
-  </ul>
-  <!-- /.navbar-nav -->
-  <div class="offcanvas-footer d-lg-none">
-    <div>
-      <a href="mailto:first.last@email.com" class="link-inverse">Bagiankerjasamakotabandung@email.com</a>
-      <br /> 00 (123) 456 78 90 <br />
-      <nav class="nav social social-white mt-4">
-        <a href="#"><i class="uil uil-twitter"></i></a>
-        <a href="#"><i class="uil uil-facebook-f"></i></a>
-        <a href="#"><i class="uil uil-dribbble"></i></a>
-        <a href="#"><i class="uil uil-instagram"></i></a>
-        <a href="#"><i class="uil uil-youtube"></i></a>
-      </nav>
-      <!-- /.social -->
-    </div>
-  </div>
-  <!-- /.offcanvas-footer -->
-  </div>
-  <!-- /.offcanvas-body -->
-  </div>
-  <!-- /.navbar-collapse -->
-  <!-- <div class="navbar-other w-100 d-flex ms-auto">
-            <ul class="navbar-nav flex-row align-items-center ms-auto">
-              <li class="nav-item dropdown language-select text-uppercase">
-                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">En</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="#">En</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#">De</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#">Es</a></li>
-                </ul>
-              </li> -->
-  <!-- <li class="nav-item d-none d-md-block">
-                <a href="./contact.html" class="btn btn-sm btn-primary rounded-pill">Contact</a>
-              </li>
-              <li class="nav-item d-lg-none">
-                <button class="hamburger offcanvas-nav-btn"><span></span></button>
-              </li> -->
-  </ul>
-  <!-- /.navbar-nav -->
-  </div>
-  <!-- /.navbar-other -->
-  </div>
-  <!-- /.container -->
-  </nav> -->
-  <!-- /.navbar -->
-  </header>
-  <!-- /header -->
+  <body>
+  @include('layout.heder')
   <section class="wrapper bg-soft-primary">
     <div class="container pt-10 pb-12 pt-md-14 pb-md-16 text-center">
       <div class="row">

@@ -15,4 +15,24 @@ class ProfileController extends Controller
     {
         return view('profile.dasar-hukum');
     }
+    public function showPersonil()
+    {
+        return view('profile.personil');
+    }
+    public function showLayanan()
+    {
+        return view('profile.layanan');
+    }
+    public function showPk()
+    {
+        return view('profile.pk');
+    }
+    public function showIk()
+    {
+        return view('profile.ik');
+    }
+    public function showKontak()
+    {
+        return view('profile.kontak');
+    }
 }
